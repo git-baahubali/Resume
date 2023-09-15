@@ -61,14 +61,14 @@ li {
 
 /* Sidebar styles */
 #sidebar {
-  background-color: pink;
+  background-color: rgb(210, 210, 210);
   flex: 1;
   max-width: 300px; /* You can adjust this */
 }
 
 /* Main content styles */
 #main-content {
-  background-color: greenyellow;
+  background-color: rgb(223, 223, 223);
   flex: 2;
 }
 
