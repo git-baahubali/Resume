@@ -1,0 +1,171 @@
+@media print {
+    body {
+        width: 210mm;
+        height: 297mm;
+        margin: 0;
+        /* padding: 20mm; Adjust based on your preference */
+        box-sizing: border-box;
+    }
+
+    #photo{
+        max-height: 200px;
+       }
+       
+       body {
+         font-family: Arial, sans-serif;
+         /* margin: 20px; */
+         line-height: 1.5;
+         width: 210mm;
+         height: 297mm;
+         /* margin: auto; */
+         /* border: 1px solid greenyellow; */
+       }
+       
+       
+       header {
+         /* display: flex; */
+         /* flex-wrap: nowrap; */
+         /* background-color: #f3f3f3; */
+         /* padding: 20px; */
+         text-align: center;
+         width: 100%;
+       }
+       header aside{
+       
+       }
+       section {
+         margin: 20px 0;
+       }
+       h1, h2, h3 {
+         margin-bottom: 10px;
+       }
+       ul {
+         list-style: none;
+         margin: 0;
+         padding: 0;
+       }
+       li {
+         margin: 5px 0;
+       }
+       .skills-list {
+         display: flex;
+         flex-wrap: wrap;
+       }
+       .skills-list li {
+         background-color: #f3f3f3;
+         margin: 5px;
+         padding: 10px;
+         text-align: center;
+         flex: 1;
+         
+       }
+       .tech-used{
+         display: flex;
+         flex-wrap: wrap;
+         /* list-style: disc; */
+       }
+       .tech-used li{
+         margin: 1px 15px;
+       }
+       
+       a {
+         color:blue;
+         text-decoration: none;
+       }
+       
+       .link{
+       width: 20px;
+       color: blue;
+       }
+       
+       /* Container for sidebar and main content */
+       #container {
+         display: flex;
+         /* justify-content: space-between; */
+         
+       }
+       
+       /* Sidebar styles */
+       #sidebar {
+         /* background-color: rgb(240, 239, 239); */
+         
+         max-width: 300px; /* You can adjust this */
+         font-size: auto;
+       }
+       
+       header {
+         /* display: flex; */
+         /* flex-wrap: nowrap; */
+         /* background-color: #f3f3f3; */
+         /* padding: 20px; */
+         text-align: center;
+         width: 100%;
+       }
+       header aside{
+       
+       }
+       section {
+         margin: 20px 0;
+       }
+       h1, h2, h3 {
+         margin-bottom: 10px;
+       }
+       ul {
+         list-style: none;
+         margin: 0;
+         padding: 0;
+       }
+       li {
+         margin: 5px 0;
+       }
+       .skills-list {
+         display: flex;
+         flex-wrap: wrap;
+       }
+       .skills-list li {
+         background-color: #f3f3f3;
+         margin: 5px;
+         padding: 10px;
+         text-align: center;
+         flex: 1;
+         
+       }
+       .tech-used{
+         display: flex;
+         flex-wrap: wrap;
+         /* list-style: disc; */
+       }
+       .tech-used li{
+         margin: 1px 15px;
+       }
+       /* Container for sidebar and main content */
+       #container {
+         display: flex;
+         /* justify-content: space-between; */
+         
+       }
+       
+       /* Sidebar styles */
+       #sidebar {
+         /* background-color: rgb(240, 239, 239); */
+         
+         max-width: 300px; /* You can adjust this */
+       }
+       
+       /* Main content styles */
+       #main-content {
+         /* background-color: rgb(223, 223, 223); */
+         padding: 0rem 1rem;
+       }
+       
+       /* Responsive design for mobile */
+       @media (max-width: 768px) {
+         #container {
+           flex-direction: column;
+         }
+         #sidebar, #main-content {
+           max-width: 100%;
+           flex: 1;
+         }
+     }
+
